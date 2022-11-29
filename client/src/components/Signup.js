@@ -67,13 +67,13 @@ const SignUp = () => {
                 className="sign-up-form" 
                 onSubmit={e => handleSignUp(e)}
             >
-                <input
+                {/* <input
                     onChange={signUpChange}
                     type="text" 
                     name="name" 
                     placeholder="name" 
                     value={signUpData.name} 
-                />
+                /> */}
                 <br>
                 </br>
                 <input 

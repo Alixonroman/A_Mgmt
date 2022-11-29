@@ -7,7 +7,7 @@ function Apartments({ apartments }) {
 
   return (
     <>
-      <main class="flex-none justify-center ... grid grid-cols-3 gap-5 px-px ...">
+      <main id="apartments" class="flex-none justify-center ... grid grid-cols-3 gap-5 px-px ...">
         {allApartments}
       </main>
     </>

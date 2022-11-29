@@ -1,11 +1,10 @@
 class ApplicationController < ActionController::Base
 
-    # skip_before_action :verify_authenticity_token
+    #  skip_before_action :verify_authenticity_token
 
     # after_action :add_headers, only: [:create]
 
     protect_from_forgery with: :null_session # avoids CSRF error
-
     # def add_headers
     #     response.headers['Authorization'] = 'token'
     # end

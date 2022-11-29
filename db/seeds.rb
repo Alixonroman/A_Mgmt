@@ -7,6 +7,10 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Apartment.create(address: "123 Main St", beds: 2, baths: 1, sqf: 1000, image: "https://images.ctfassets.net/pg6xj64qk0kh/2r4QaBLvhQFH1mPGljSdR9/39b737d93854060282f6b4a9b9893202/camden-paces-apartments-buckhead-ga-terraces-living-room-with-den_1.jpg")
+Apartment.create(address: "123 Main St", beds: 1, baths: 1, sqf: 1000, image: "https://images.ctfassets.net/pg6xj64qk0kh/2r4QaBLvhQFH1mPGljSdR9/39b737d93854060282f6b4a9b9893202/camden-paces-apartments-buckhead-ga-terraces-living-room-with-den_1.jpg")
+Apartment.create(address: "123 Main St", beds: 2, baths: 1, sqf: 1000, image: "https://images.ctfassets.net/pg6xj64qk0kh/2r4QaBLvhQFH1mPGljSdR9/39b737d93854060282f6b4a9b9893202/camden-paces-apartments-buckhead-ga-terraces-living-room-with-den_1.jpg")
+
+
 
 ApartmentPhoto.create(apartment_id: 1, image_url: "https://cdn.decoist.com/wp-content/uploads/2017/03/Gorgeous-copper-pendant-lighting-for-the-kitchen-island.jpg", description: "blah")
 ApartmentPhoto.create(apartment_id: 1, image_url: "https://cdn.vox-cdn.com/thumbor/E0jNRUTI81RBBRMSA_ZU7vq7I4g=/0x0:2400x1602/1200x675/filters:focal(682x772:1066x1156)/cdn.vox-cdn.com/uploads/chorus_image/image/54241701/LINEA_NicholasJamesPhoto_8.0.jpeg", description: "blah")

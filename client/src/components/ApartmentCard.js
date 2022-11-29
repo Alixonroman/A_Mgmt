@@ -20,7 +20,7 @@ function ApartmentCard({ apartment }) {
               {address} - {beds} Beds - {baths} Bath - {sqf} Sqf
             </p>
             <Card.Actions className="justify-end">
-              <Button color="primary">Apply Now</Button>
+              <Button href="/apartments"color="primary">Browse</Button>
             </Card.Actions>
           </Card.Body>
         </Card>

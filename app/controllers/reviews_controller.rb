@@ -8,30 +8,52 @@ class ReviewsController < ApplicationController
   end
 
   
-
+def show 
+  review = Review.find(params[:id])
+  render json: review
+end
 
 
   
 
   # POST /reviews or /reviews.json
   def create
-    review = Review.create(review_params)
-    if review.valid?
+    review = Review.create!(rating: params[:rating], review: params[:review])
     render json: review
+  end
+
+  
+  # PATCH/PUT /reviews/1 or /reviews/1.json
+  def update
+   review = Review.find(params[:id])
+   
+    review.update( 
+      review: params[:review] || review.review, 
+      rating: params[:rating] || review.rating
+    )
+
+    if review.save
+      render json: review
     else
       render json: review.errors, status: :unprocessable_entity
     end
-
     
   end
 
-  # PATCH/PUT /reviews/1 or /reviews/1.json
-  def update
-   
-  end
 
+
+
+
+
+
+
+
+  
   # DELETE /reviews/1 or /reviews/1.json
   def destroy
+    review = Review.find(params[:id])
+    review.destroy
+    render json: "Review deleted"
     
   end
 

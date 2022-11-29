@@ -22,13 +22,13 @@ function Landing() {
       <div className="hero min-h-screen bg-base-200 bg-secondary-content">
         <div className="hero-content text-center">
           <div>
-            <h1 className="text-7xl font-bold">Welcome to Annal Managment</h1>
+            <h1 className="text-7xl font-bold">Welcome to A_Managment</h1>
             <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button href="/login" className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ function AuthLoginForm({ email, setEmail, password, setPassword, signin }) {
         <div className="self-start hidden lg:flex flex-col  text-gray-300">
           <h1 className="my-3 font-semibold text-4xl">Welcome back</h1>
           <p className="pr-3 text-sm opacity-75">
-            Login and start your dairy journey
+            
           </p>
         </div>
       </div>
